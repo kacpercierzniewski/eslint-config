@@ -1,0 +1,33 @@
+{
+  "name": "@peleek/eslint-config",
+  "version": "1.0.0",
+  "description": "my own eslint shareable config",
+  "author": "Kacper Cierzniewski <kacper.cierzniewski@gmail.com>",
+  "homepage": "https://github.com/peleek/to-done#readme",
+  "license": "ISC",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peleek/to-done.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "main": "./.eslintrc.js",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.29.1",
+    "@typescript-eslint/parser": "^4.29.1",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-import": "^2.24.0",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.24.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "typescript": "^4.3.2"
+  },
+  "bugs": {
+    "url": "https://github.com/peleek/to-done/issues"
+  }
+}
